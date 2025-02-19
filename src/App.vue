@@ -2,7 +2,7 @@
 import { onMounted } from "vue";
 import { RouterView, useRoute, useRouter } from "vue-router";
 import Layout from "./layout/Layout.vue";
-import useAuth from './lib/feats/authSlice.js'
+import useAuth from '@/lib/feats/authSlice.js'
 
 const { loadUser } = useAuth();
 
