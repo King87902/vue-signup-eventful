@@ -19,7 +19,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      "@": path.resolve(--dirname, "src"),
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
 });
