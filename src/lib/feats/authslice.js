@@ -1,7 +1,7 @@
 import { defineStore } from "pinia";
 import { users } from "../helper";
 
-const useAuth = defineStore("userAuth", {
+ export const useAuth = defineStore("userAuth", {
   state: () => ({
     /**
      *
