@@ -1,5 +1,5 @@
 <script setup>
-import useAuth from "@/lib/feats/authSlice";
+import useAuth from "@/lib/feats/authslice";
 import { ref } from "vue";
 import { RouterLink } from "vue-router";
 
