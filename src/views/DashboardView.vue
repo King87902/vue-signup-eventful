@@ -1,6 +1,6 @@
 <script setup>
 import BucketCard from "@/components/BucketCard.vue";
-import useAuth from "@/lib/feats/authSlice";
+import useAuth from "@/lib/feats/authslice";
 
 const { $state } = useAuth();
 </script>
