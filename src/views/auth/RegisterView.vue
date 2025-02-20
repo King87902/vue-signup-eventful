@@ -1,5 +1,5 @@
 <script setup>
-import useAuth from "@/lib/feats/authSlice";
+import useAuth from "@/lib/feats/authslice";
 import { useRouter } from "vue-router";
 import { toast } from "vue3-toastify";
 
