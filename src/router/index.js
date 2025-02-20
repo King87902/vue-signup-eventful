@@ -3,7 +3,7 @@ import LoginView from "@/views/auth/LoginView.vue";
 import RegisterView from "@/views/auth/RegisterView.vue";
 import ItemDetailsPageView from "@/views/ItemDetailsPageView.vue";
 import EditDetailView from "@/views/EditDetailView.vue";
-import DashboardView from "@/views/DashBoardView.vue";
+import DashboardView from "@/views/DashboardView.vue";
 import NotFoundView from "@/views/NotFoundView.vue";
 import { createWebHistory, createRouter } from "vue-router";
 
